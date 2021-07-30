@@ -27,7 +27,7 @@ add_selectbox = st.sidebar.selectbox(
     ('-SELECT-', 'About', 'Selfie Segmentation', 'Face Detection', 'Face Recognition'),
 )
 
-if add_selectbox == 'SELECT':
+if add_selectbox == '-SELECT-':
     st.markdown("<h3 style='text-align: center; color: black;'>Open the sidebar and start the fun.</h3>", unsafe_allow_html=True)
 
 if add_selectbox =='About':
